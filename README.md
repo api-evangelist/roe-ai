@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Roe AI is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by gradient-ventures) and added to the network as a stub for full-pipeline profiling.
-- https://www.getroe.ai/
+Roe AI provides an agentic fraud and AML investigation platform that leverages artificial intelligence to automate data collection, analysis, and risk scoring across multiple data sources. Its product suite includes the Rori Agent OS for real‑time transaction monitoring, Atlas Knowledge Base for contextual data enrichment, and Prism Risk Score for comprehensive risk assessment. Designed for financial institutions, fintechs, and compliance teams, Roe AI enables faster, more accurate investigations while reducing manual effort and operational costs.
+
+**Areas:** Company · AI · FraudDetection · AML · FinTech · DataAnalytics
+
+## Roe AI on APIs.io
+
+Everything profiled for Roe AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/roe-ai/](https://apis.io/providers/roe-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Roe API](https://apis.io/apis/roe-ai/roe-api/) — Manage your unstructured data with Roe API
+- [Roe AI API](https://apis.io/apis/roe-ai/roe-ai-api/) — Roe AI API as documented publicly: 45 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1AgentsAgentidJobsResponse](https://apis.io/schemas/roe-ai/roe-ai-get-v1-agents-agentid-jobs-response/)
+- [GetV1AgentsResponse](https://apis.io/schemas/roe-ai/roe-ai-get-v1-agents-response/)
+- [GetV1DatabaseQueryQueryidResultResponse](https://apis.io/schemas/roe-ai/roe-ai-get-v1-database-query-queryid-result-response/)
+- [PostV1AgentsAgentidDuplicateResponse](https://apis.io/schemas/roe-ai/roe-ai-post-v1-agents-agentid-duplicate-response/)
+- [PostV1AgentsResponse](https://apis.io/schemas/roe-ai/roe-ai-post-v1-agents-response/)
+- [PutV1AgentsAgentidResponse](https://apis.io/schemas/roe-ai/roe-ai-put-v1-agents-agentid-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Roe Ai Context](https://apis.io/jsonld/roe-ai/roe-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Roe AI API Rules](https://apis.io/rules/roe-ai/roe-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Roe Ai Authentication](https://apis.io/security/roe-ai/roe-ai-authentication/)
+- [Roe Ai Domain Security](https://apis.io/security/roe-ai/roe-ai-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Roe Ai Scopes](https://apis.io/scopes/roe-ai/roe-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Roe Ai Plans Pricing](https://apis.io/plans/roe-ai/roe-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Roe Ai Rate Limits](https://apis.io/rate-limits/roe-ai/roe-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.roe-ai.com)
+- [Documentation](https://docs.roe-ai.com)
+- [Getting started](https://docs.roe-ai.com/quickstart)
+- [API reference](https://docs.roe-ai.com/api-reference/introduction)
+- [Support](https://www.roe-ai.com/support)
+- [Changelog](https://www.roe-ai.com/changelog)
+- [Blog](https://roeai.substack.com)
+- [Terms of service](https://www.roe-ai.com/terms)
+- [Privacy policy](https://www.roe-ai.com/privacy)
+- [GitHub](https://github.com/roe-ai)
+
+## API Evangelist rating
+
+**Kin Score 49.7** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 21.1 |
+
+**Agent readiness 26.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/roe-ai/](https://apis.io/providers/roe-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Roe AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/roe-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
